@@ -6,6 +6,6 @@ An odor pattern would be given to the network as input, along with the moments o
 The second and third layers represent the olfactory bulb. Each of these layers consists of two "sub-layers"; one sub-layer computes the membrane potential of each cell, while the second sub-layer determines the firing rate (output) of each cell.
 The output of the first layer is given to the mitral layer by one-to-one connections. The connections between mitral and granule cells mimic the olfactory bulb (Li and Hopfield 1989 provide more information on these connection patterns).
 
-This model was introduced by Li and Hopfield in their article "Modeling the Olfactory Bulb and its Neural Oscillatory Processing (1989)".
+This model was introduced by Li and Hopfield in their article "Modeling the Olfactory Bulb and its Neural Oscillatory Processings" (1989).
 
 I'd like to develop this model further using associative memory to detect odor patterns. I'd be very grateful if you shared your ideas and knowledge on this subject with me, and if you have suggestions which might improve this code, please contact me by email.
