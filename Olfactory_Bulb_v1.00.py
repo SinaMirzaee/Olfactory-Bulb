@@ -15,7 +15,7 @@ class MembranePotential(nn.Module):
         
         '''
         H0 and W0 are weight matrices that determine how neurons in a layer are connected to the previous
-        one. More information on how these matrices are constructed can be found in the README.txt file. 
+        one. More information on how these matrices are constructed can be found in Z. Li and J.J. Hopfield 1989. 
         '''
         if cell_type == "Mitral":
             self.H0 = torch.tensor([[0.3, 0.9, 0, 0, 0, 0, 0, 0, 0, 0.7],
